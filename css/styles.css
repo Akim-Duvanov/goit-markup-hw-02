@@ -1,0 +1,91 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-lead {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #fff;
+}
+
+.header-liege {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+}
+
+.header-laborer {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+/* logos */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2e2f42;
+}
+
+.footer .logo,
+.footer .text {
+    color: #f4f4fd;
+}
+
+.logo .change {
+    color: #4d5ae5;
+}
+/* bg colors */
+.dark-blue-section,
+.footer {
+    background-color: #2e2f42;
+}
+
+.team-cloud-section {
+    background-color: #f4f4fd;
+}
+/* all that is interactive */
+.order-button {
+    background-color: #4d5ae5;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: #404bbf;
+}
+
+.page-nav .link,
+.page-nav .extra-link {
+    font-weight: 500;
+    color: #2e2f42;
+}
+
+.page-nav .link:hover,
+.page-nav .extra-link:hover,
+.page-nav .address:hover,
+.page-nav .link:focus,
+.page-nav .extra-link:focus,
+.page-nav .address:focus {
+    color: #404bbf;
+}
+
+.page-nav .extra-link:active {
+    color: #404bbf;
+    text-decoration:underline;
+}
