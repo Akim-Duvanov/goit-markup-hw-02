@@ -103,8 +103,8 @@ body {
 }
 
 .page-nav .link:hover,
-.page-nav .address:hover,
+.address:hover,
 .page-nav .link:focus,
-.page-nav .address:focus {
+.address:focus {
     color: #404bbf;
 }
