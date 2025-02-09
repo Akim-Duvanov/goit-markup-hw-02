@@ -1,10 +1,10 @@
 body {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    /*font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #434455;*/
     background-color:#FFFFFF;
 }
 
@@ -38,6 +38,10 @@ body {
 .team-cloud-section .text {
     font-size: 16px;
 }
+
+.address {
+    color: #434455;
+}
 /* logos */
 .logo {
     font-family: "Raleway", sans-serif;
@@ -60,6 +64,10 @@ body {
 
 .footer .logo .change {
     color: #f4f4fd;
+}
+
+.address-container {
+    font-style: normal;
 }
 /* bg colors */
 .dark-blue-section,
@@ -89,22 +97,14 @@ body {
     background-color: #404bbf;
 }
 
-.page-nav .link,
-.page-nav .extra-link {
+.page-nav .link {
     font-weight: 500;
     color: #2e2f42;
 }
 
 .page-nav .link:hover,
-.page-nav .extra-link:hover,
 .page-nav .address:hover,
 .page-nav .link:focus,
-.page-nav .extra-link:focus,
 .page-nav .address:focus {
     color: #404bbf;
-}
-
-.page-nav .extra-link:active {
-    color: #404bbf;
-    text-decoration:underline;
 }
