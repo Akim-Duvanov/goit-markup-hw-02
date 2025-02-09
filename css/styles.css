@@ -70,6 +70,10 @@ body {
 .team-cloud-section {
     background-color: #f4f4fd;
 }
+
+.team-list {
+    background-color: #FFFFFF;
+}
 /* all that is interactive */
 .order-button {
     background-color: #4d5ae5;
